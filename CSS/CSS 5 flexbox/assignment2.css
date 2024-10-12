@@ -1,0 +1,21 @@
+#main {
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 2px solid skyblue;
+    border-radius: 15px;
+    display: flex;
+    /* justify-content: flex-start; */
+    /* align-content: center; */
+    /* align-items: center; */
+}
+
+.child {
+    height: 50px;
+    width: 80px;
+    /* border: 2px solid black; */
+    font-size: 24px;
+    margin-left: 5px;
+    line-height: 50px;
+    /* border-radius: 10px; */
+}

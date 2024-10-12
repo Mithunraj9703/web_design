@@ -1,0 +1,12 @@
+div {
+    height: 200px;
+    width: 500px;
+    background-color: aqua;
+}
+
+div {
+    border: 10px solid yellow;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 30px;
+}

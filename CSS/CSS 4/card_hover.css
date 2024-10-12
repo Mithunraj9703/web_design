@@ -1,0 +1,25 @@
+#outer {
+    width: 150px;
+    height: 250px;
+    display: inline-block;
+
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 2px 2px 5px black;
+}
+
+img {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+
+}
+
+#inner {
+    padding: 0 5px;
+}
+
+#outer:hover {
+    box-shadow: 5px 5px 10px black;
+    transition-duration: 1s;
+}
