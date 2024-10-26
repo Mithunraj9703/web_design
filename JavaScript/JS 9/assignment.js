@@ -1,0 +1,16 @@
+let input = document.createElement('input');
+let button = document.createElement('button');
+button.innerText = "Click me";
+let body = document.querySelector('body');
+body.appendChild(input);
+body.appendChild(button);
+input.placeholder = "username";
+button.id = "btn";
+button.classList.add('btn');
+let h1 = document.createElement('h1');
+h1.innerHTML = "<u>DOM Practice</u>";
+h1.classList.add('purple');
+body.appendChild(h1);
+let p = document.createElement('p');
+p.innerHTML = "Apna College <b>Delta</b> Practice";
+body.appendChild(p);

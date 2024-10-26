@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+li {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.delete {
+    margin-left: 5px;
+}
